@@ -23,4 +23,7 @@ vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
 
 Para este proyecto se desarrollo y monto en un servidor XAMPP apache y se monto la carpeta del proyecto en "htdocs" dentro de la carpeta de xampp
 
+## REALIZACIÓN
 
+Este proyecto fue realizado por Alejandro Ospina Escobar para la prueba tecnica
+de la empresa PCA INGENERIA
