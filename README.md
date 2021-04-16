@@ -4,7 +4,7 @@
 
 ### Primera vez clonado - PASO 1
 
-Si se clona por primera vez se debe usar el siguiente comando para descargar las librerias necesarias
+Si se clona por primera vez se debe usar el siguiente comando para descargar las librerias necesarias y usar el programa de dependecias para PHP "Composer",
 esto se hace dentro de la raiz del proyecto de WEBSERVICES PHP
 ```
 composer install
@@ -12,8 +12,9 @@ composer install
 
 ### Generar la base de datos - PASO 2
 
-Si se realizo nuevas clases en la carperta SRC el comando para guardar y actualizar la base de datos bd.sqlite.
-Esto se hace dentro de la raiz del proyecto de WEBSERVICES PHP.
+Para este proyecto se hizo uso de una base de datos relacional SQLite. 
+Para generar la base de datos que se uso para la realización del proyecto y obtener la base de datos con nombre db.sqlite, se debe realizar 
+el siguiente comando dentro de la raiz de este proyecto.
 ```
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
 ```
