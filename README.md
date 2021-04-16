@@ -19,3 +19,8 @@ el siguiente comando dentro de la raiz de este proyecto.
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
 ```
 
+### Programa que se uso para el montaje del backend - PASO 3
+
+Para este proyecto se desarrollo y monto en un servidor XAMPP apache y se monto la carpeta del proyecto en "htdocs" dentro de la carpeta de xampp
+
+
